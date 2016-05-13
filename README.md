@@ -10,15 +10,15 @@ _This a static webpage with dynamic elements, a snapshot of sorts, assigned as a
 
 ## Setup/Installation Requirements
 
-* _Clone through Terminal using git clone https://github.com/LATAEVIA/JAVA-WK2-Build-Dictionary.git_
-* _Project Files will be in your Downloads folder_
+* _Clone through Terminal using git clone https://github.com/LATAEVIA/JAVA-WK3-Hair-Salon.git_
 * _Open files in any text editor to view source code_
 
 * _In PSQL:_
-* _CREATE DATABASE to_do;_
+* _CREATE DATABASE hair_salon;_
+* _\c hair_salon_
 * _CREATE TABLE stylists (id serial PRIMARY KEY, stylist_name varchar);_
 * _CREATE TABLE clients (id serial PRIMARY KEY, client_name varchar, stylist_id int);_
-
+* _CREATE DATABASE hair_salon_test WITH TEMPLATE hair_salon;_
 * _With Gradle installed, navigate to folder in the terminal and 'gradle run'_
 * _Open localhost:4567 in any browser to view_
 
